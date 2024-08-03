@@ -1,6 +1,6 @@
 # ChatGPT-Prompt-resume-parse
-
-```I want you to help me parse my resume into JSON format. Below is the content of my resume. Please extract and structure the information into a JSON object with appropriate keys and values.
+```
+I want you to help me parse my resume into JSON format. Below is the content of my resume. Please extract and structure the information into a JSON object with appropriate keys and values.
 
 **Resume Content:**
 
@@ -14,4 +14,5 @@
 4. List any skills and certifications under "skills" and "certifications" keys respectively.
 5. Include additional sections such as projects, awards, or publications under corresponding keys if present.
 
-Format the output as a JSON object with nested structures as necessary to represent the data accurately.```
+Format the output as a JSON object with nested structures as necessary to represent the data accurately.
+```
