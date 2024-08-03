@@ -1,0 +1,65 @@
+I want you to help me parse my resume into JSON format. Below is the content of my resume. Please extract and structure the information into a JSON object with appropriate keys and values.
+
+****
+
+[Hritik Raj
+Linkedin: hritik-raj-bngr1a Email: hritik.hritiksingh@gmail.com
+Github: rhrits Mobile: +91-6206180458
+Skills Summary
+• Languages: C++, Python, Java, Javascripts
+• Frameworks: HTML and CSS, Bootstrap, React JS, Next JS, NodeJS, ExpressJS
+• Databases: MySQL, MongoDB
+• Tools/Platforms: Git, GitHub, Docker, Jenkins, VS Code, Linux, AWS
+• Emerging Technology: Blockchain
+Projects
+• AI Chat Bot – Interactive Web Application:
+Tech Stack: React JS. Open AI API
+Developed AI Chat Bot web app with ReactJS and OpenAI API, enabling interactive conversations with natural language processing.
+• YouTube Clone – Video Sharing Platform :
+Tech Stack: React JS, Redux, Tailwind UI
+Developed a responsive YouTube clone with API integration, Tailwind CSS dark mode, and optimized performance using React Query.
+• Blog App – Modern and Responsive Blogging Platform:
+Tech Stack: Next.js 14, Tailwind CSS, Shadcn, Velite
+Developed a blog website using Next.js 14, Tailwind CSS, Shadcn, and Velite for a modern and responsive design, delivering a seamless and
+engaging reading experience across all devices
+• Hackathon Landing Page - Dynamic Web Platform:
+Tech Stack: React JS
+Created dynamic hackathon landing page with ReactJS, showcasing events and enhancing user experience with modern styling..
+Achievements
+• Created a community for developers and hosted coding events.
+• Participated in Solana Hacker House 2022 & 2023.
+• Good analytics on my blogs at hashnode
+• 5 Star at Hackerrank.
+• Led Punjab DAO, 5ire Chain Chandhigarh and Coding communities.
+• Contributed to Hacktoberfest 2022 & 2023.
+Certifications
+• The Complete Web Development Bootcamp by Dr. Angela Yu (Udemy).
+• C++/C by Programming Pathsala.
+• Cloud Microservices by Coursera.
+• Data Structures and Algorithms Specialization by UC San Diego (Coursera).
+Education
+
+Lovely Professional University Punjab, India
+Bachelor of Technology - Computer Science and Engineering; CGPA: 7.00 Since August 2021
+DAV Public School CCL
+Intermediate; Percentage: 89%
+
+Giridih, Jharkhand
+April 2018 - March 2020
+
+DAV Public School CCL
+Matriculation; Percentage: 91%
+
+Giridih, Jharkhand
+April 2016 - March 2018]
+
+**Instructions:**
+
+1. Extract personal details (e.g., name, contact information) and include them under a "personalDetails" key.
+2. Parse the education history and include it under an "education" key, with each entry containing details like institution name, degree, field of study, and graduation year.
+3. Extract work experience and include it under a "workExperience" key, with each entry containing job title, company name, location, start date, end date, and a brief description of responsibilities and achievements.
+4. List any skills and certifications under "skills" and "certifications" keys respectively.
+5. Include additional sections such as projects, awards, or publications under corresponding keys if present.
+
+Format the output as a JSON object with nested structures as necessary to represent the data accurately.
+
